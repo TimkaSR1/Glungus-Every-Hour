@@ -27,7 +27,7 @@ time.sleep(2)
 
 edit = driver.find_element('class name', 'public-DraftStyleDefault-block')
 time.sleep(4)
-edit.send_keys(f't.co/3MsKDpNRu') # Paste your twitter video embed here
+edit.send_keys(f't.co/c3MsKDpNRu') # Paste your twitter video embed here
 #edit.send_keys(f'c3MsKDpNRu////', 't.co')
 # Also sometimes chromium can be a bit weird so use this format if it ignores the slashes 'video-embed-id////', 't.co'
 time.sleep(2)
