@@ -20,10 +20,10 @@ pip install selenium
 
 
 Usage:
-- Add your twitter bot credentials in dump.py
-- Run dump.py
+- Add your twitter bot credentials in dump_cookie.py
+- Run dump_cookie.py
 - Change the twitter embed link to whatever you want
-- Use crontab or task scheduler to make it run hourly, every day or whatever
+- Use crontab or task scheduler to make glungus.py run hourly, every day or whatever
 
 
 Credits:
