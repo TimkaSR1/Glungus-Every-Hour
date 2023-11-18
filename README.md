@@ -1,6 +1,6 @@
 # Glungus Every Hour
 
-Silly little bot that posts glungus
+Silly little twitter bot that posts glungus
 
 Requirements for Ubuntu:
 - Desktop environment (any de will work)
