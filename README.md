@@ -2,7 +2,7 @@
 
 Silly little twitter bot that posts glungus
 
-Requirements for Ubuntu:
+Requirements for Ubuntu (both x64 and arm work btw):
 - Desktop environment (any de will work)
 - Python 3 and pip
 - Chromium and Chromium web driver
