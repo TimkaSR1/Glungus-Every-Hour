@@ -1,4 +1,4 @@
-# Glungus-Every-Hour
+# Glungus Every Hour
 
 Silly little bot that posts glungus
 
