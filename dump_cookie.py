@@ -2,7 +2,7 @@ import time, pickle
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-chrome_driver_path = 'YouDontNeedToChangeThisBtw'
+chrome_driver_path = '' # Enter the path of the chromedriver
 driver = webdriver.Chrome()
 driver.maximize_window()
 
