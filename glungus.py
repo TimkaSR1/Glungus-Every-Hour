@@ -22,7 +22,7 @@ load_cookies(driver, "") # Enter the path of the cookie
 time.sleep (2)
 
 
-driver.get('https://twitter.com/home') # Opens twitter
+driver.get('https://twitter.com/home') # Opens Twitter
 time.sleep(2)
 
 
@@ -33,4 +33,4 @@ edit.send_keys(f'') # Paste your twitter video embed here
 time.sleep(2)
 edit = driver.find_element('xpath', '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[3]/div/span/span').click()
 time.sleep(3)
-driver.quit() # Close Chrome
+driver.quit() # Quits Chrome/Chromium
