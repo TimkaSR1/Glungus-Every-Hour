@@ -28,8 +28,7 @@ time.sleep(2)
 
 edit = driver.find_element('class name', 'public-DraftStyleDefault-block')
 time.sleep(4)
-edit.send_keys(f't.co/c3MsKDpNRu') # Paste your twitter video embed here
-#edit.send_keys(f'c3MsKDpNRu////', 't.co')
+edit.send_keys(f'') # Paste your twitter video embed here
 # Also sometimes chromium can be a bit weird so use this format if it ignores the slashes 'video-embed-id////', 't.co'
 time.sleep(2)
 edit = driver.find_element('xpath', '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[3]/div/span/span').click()
