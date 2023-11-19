@@ -1,6 +1,9 @@
 # Glungus Every Hour
 
-Silly little twitter bot that posts glungus
+Silly little twitter bot that posts glungus every hour
+
+Link to bot:
+https://twitter.com/glungus37850
 
 Requirements for Ubuntu (both x64 and arm work btw):
 - Desktop environment (any de will work)
@@ -15,7 +18,6 @@ Install the needed pip module:
 ```
 pip install selenium
 ```
-
 
 Usage:
 - Add your twitter bot credentials in dump_cookie.py
