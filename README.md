@@ -32,4 +32,4 @@ DISPLAY=:  # You can find the correct display number by running env | grep DISPL
 ```
 Credits:
 - [Artur Spirin](https://www.youtube.com/watch?v=s9m6h1bLVIo)
-- [Manish Sutradhar](https://replit.com/@ManishSutradhar/Twitter-bot?v=1#main.py) (I stole most of the code from here I just modified it to work with the latest version of selenium and to work the new twitter layout)
+- [Manish Sutradhar](https://replit.com/@ManishSutradhar/Twitter-bot?v=1#main.py) (I stole most of the code from here I just modified it to work with the latest version of selenium and to work with the new twitter layout)
