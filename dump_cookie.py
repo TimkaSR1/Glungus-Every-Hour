@@ -22,4 +22,4 @@ password.send_keys(Keys.ENTER)
 time.sleep(2)
 pickle.dump( driver.get_cookies() , open("cookie.pkl","wb")) # Dumps the cookie
 time.sleep(2)
-driver.quit()
+driver.quit() # Quits Chrome/Chromium
