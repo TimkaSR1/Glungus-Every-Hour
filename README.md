@@ -23,7 +23,7 @@ Usage:
 - Add your twitter bot credentials in dump_cookie.py
 - Run dump_cookie.py
 - Change the twitter embed link to whatever you want
-- Use crontab or task scheduler to make glungus.py run hourly, every day or whatever
+- Use crontab or task scheduler to make glungus.py run every hour
 
 Your crontab setup should look like this:
 ```
