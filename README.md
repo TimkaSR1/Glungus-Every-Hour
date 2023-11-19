@@ -13,8 +13,6 @@ Requirements for Windows:
 
 Install the needed pip module:
 ```
-pip install -r requirements
-(or)
 pip install selenium
 ```
 
