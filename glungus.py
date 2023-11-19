@@ -15,6 +15,7 @@ def load_cookies(driver, location, url=None):
 
 def tweet():
 	chrome_driver_path = '' # Enter the path of the chromedriver
+	# In Linux the chromedriver path is usually /usr/bin/chromedriver
 driver = webdriver.Chrome()
 driver.maximize_window()
 load_cookies(driver, "cookie.pkl") # Imports the cookie you dumped earlier
