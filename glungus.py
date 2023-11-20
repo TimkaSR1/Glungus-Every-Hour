@@ -27,9 +27,11 @@ time.sleep(2)
 
 edit = driver.find_element('class name', 'public-DraftStyleDefault-block')
 time.sleep(4)
-edit.send_keys(f'') # Paste your twitter video embed here
-# Also sometimes chromium can be a bit weird so use this format if it ignores the slashes 'video-embed-id////', 't.co'
-time.sleep(2)
-edit = driver.find_element('xpath', '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[3]/div/span/span').click()
+edit = driver.find_element('xpath', "//input[@type='file']")
+edit.send_keys(f'') # Enter the path of the video you want to upload
+time.sleep(13)
+edit = driver.find_element('xpath', '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[3]/div/span/span')
+time.sleep(1)
+driver.execute_script("arguments[0].click();", edit)
 time.sleep(3)
 driver.quit() # Quits Chrome/Chromium
