@@ -1,24 +1,23 @@
-import time, pickle, threading
+import time, pickle
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from datetime import datetime
 
 def load_cookies(driver, location, url=None):
 
     cookies = pickle.load(open(location, "rb"))
     driver.delete_all_cookies()
-    driver.get("https://twitter.com" if url is None else url)
+    driver.get('https://twitter.com' if url is None else url)
     for cookie in cookies:
         if isinstance(cookie.get('expiry'), float):
             cookie['expiry'] = int(cookie['expiry']) 
         driver.add_cookie(cookie)
 
-def tweet():
-	chrome_driver_path = '' # Enter the path of the chromedriver
-	# In Linux the chromedriver path is usually /usr/bin/chromedriver
+
+chrome_driver_path = '' # Enter the path of the chromedriver
+# In Linux the chromedriver path is usually /usr/bin/chromedriver
 driver = webdriver.Chrome()
 driver.maximize_window()
-load_cookies(driver, "") # Enter the path of the cookie
+load_cookies(driver, '') # Enter the path of the cookie
 time.sleep (2)
 
 
