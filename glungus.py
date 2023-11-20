@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 
 def load_cookies(driver, location, url=None):
 
-    cookies = pickle.load(open(location, "rb"))
+    cookies = pickle.load(open(location, 'rb'))
     driver.delete_all_cookies()
     driver.get('https://twitter.com' if url is None else url)
     for cookie in cookies:
