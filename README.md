@@ -3,7 +3,7 @@
 Silly little twitter bot that posts glungus every hour
 
 Link to bot:
-https://twitter.com/glungus37850
+https://twitter.com/glunging
 
 Requirements for Ubuntu (both x64 and arm work btw):
 - Desktop environment (any de will work)
