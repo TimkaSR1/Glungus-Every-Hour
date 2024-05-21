@@ -21,7 +21,7 @@ load_cookies(driver, '') # Enter the path of the cookie
 time.sleep (2)
 
 
-driver.get('https://twitter.com/home') # Opens Twitter
+driver.get('https://x.com/home') # Opens Twitter
 time.sleep(2)
 
 
@@ -30,7 +30,7 @@ time.sleep(4)
 edit = driver.find_element('xpath', "//input[@type='file']")
 edit.send_keys(f'') # Enter the path of the video you want to upload
 time.sleep(13)
-edit = driver.find_element('xpath', '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div[3]/div/span/span')
+edit = driver.find_element('xpath', '/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/div/div[2]/div[1]/div/div/div/div[2]/div[2]/div[2]/div/div/div/button')
 time.sleep(1)
 driver.execute_script("arguments[0].click();", edit)
 time.sleep(3)
