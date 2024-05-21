@@ -13,10 +13,10 @@ email = driver.find_element('name', 'text')
 email.send_keys('') # Email
 email.send_keys(Keys.ENTER)
 time.sleep(2)
-recheck = driver.find_element('name', 'text')
-recheck.send_keys('') # Username in case it requires it
-recheck.send_keys(Keys.ENTER)
-time.sleep(2)
+# recheck = driver.find_element('name', 'text')
+# recheck.send_keys('') # Username in case it requires it
+# recheck.send_keys(Keys.ENTER)
+# time.sleep(2)
 password = driver.find_element('name', 'password')
 password.send_keys('') # Password
 password.send_keys(Keys.ENTER)
