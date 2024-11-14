@@ -14,6 +14,7 @@ This should work for every OS as long as it supports Python 3
 
 > [!NOTE]
 > The video should not be longer than 1 minute or else bluesky will say 'Video not found.'
+>
 > Also use crontab/task scheduler/whatever the mac variant is to run the script every hour (instructions for crontab are in the original readme)
 
 Credit (for the note thing in this readme): https://github.com/orgs/community/discussions/16925
