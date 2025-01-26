@@ -1,6 +1,6 @@
 # Glungus Every Hour (Bluesky)
 
-Link to the bot: https://bsky.app/@glunging.bsky.social
+Link to the bot: https://bsky.app/profile/glunging.bsky.social
 
 Requirements:
 - Python 3
