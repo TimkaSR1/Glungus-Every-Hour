@@ -1,5 +1,7 @@
 # Glungus Every Hour (Bluesky)
 
+Link to the bot: https://bsky.app/@glunging.bsky.social
+
 Requirements:
 - Python 3
 - atproto pip package
